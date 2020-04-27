@@ -1,0 +1,82 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:listDivider">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:listDivider">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="list_item_font">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="list_title_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="list_date_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tab_item_font">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="news_details_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="news_details_title_font">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="news_details_description_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="news_details_url_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="news_details_date_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

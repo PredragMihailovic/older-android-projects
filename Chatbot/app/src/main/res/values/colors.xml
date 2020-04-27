@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8B8887</color>
+    <color name="colorPrimaryDark">#5b5a59</color>
+    <color name="colorAccent">#2d85c7</color>
+
+    <color name="transparentColor">#00ffffff</color>
+    <color name="gray">#b1b0b0</color>
+    <color name="white">#fff</color>
+
+    <color name="buttonPressedColor">#add4d4c9</color>
+
+    <color name="receivingMessage">#e9e9f4</color>
+    <color name="sendingMessage">#d9e6ec</color>
+
+    <color name="toolbarText">@color/white</color>
+    <color name="toolbarBackground">@color/colorPrimary</color>
+
+</resources>

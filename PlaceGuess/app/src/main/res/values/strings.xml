@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PlaceGuess</string>
+
+    <string name="google_maps_key">AIzaSyDWi8AJYKUVjscxLwnQgUISaeBVEbcqWqU</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="monument">Monument</string>
+    <string name="street_view">Street View</string>
+    <string name="city">City</string>
+    <string name="natural_site">Natural Site</string>
+
+    <string name="homeTitle">Guess Location By</string>
+
+    <string name="startingSeconds">5</string>
+    <string name="startingScore">Current score: 0</string>
+
+    <string name="endScore">Your score is:</string>
+
+    <string name="goToHomeButton">Go To Home</string>
+
+    <string name="home">Home</string>
+</resources>

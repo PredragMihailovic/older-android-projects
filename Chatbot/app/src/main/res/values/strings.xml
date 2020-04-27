@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chatbot</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="botHello">Hello, I\'m Valhala.</string>
+    <string name="speakToMe">Speak to me!</string>
+
+    <string name="dummyMessage">Some dummy message text...</string>
+    <string name="dummyTime">19:32</string>
+</resources>

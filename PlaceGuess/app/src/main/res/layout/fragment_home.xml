@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:clickable="true"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="105dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/homeText"
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/homeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icon" />
+
+
+    <ImageView
+        android:id="@+id/monumentImage"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/machu_picchu"
+        app:layout_constraintBottom_toTopOf="@+id/cityImage"
+        app:layout_constraintEnd_toStartOf="@+id/streetImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeText"
+        android:focusable="false"/>
+
+    <ImageView
+        android:id="@+id/streetImage"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/street_view"
+        app:layout_constraintBottom_toTopOf="@+id/naturalSiteImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/monumentImage"
+        app:layout_constraintTop_toTopOf="@+id/monumentImage"
+        android:focusable="false"/>
+
+    <ImageView
+        android:id="@+id/cityImage"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/city_image"
+        app:layout_constraintEnd_toStartOf="@+id/naturalSiteImage"
+        app:layout_constraintStart_toStartOf="@+id/monumentImage"
+        app:layout_constraintTop_toBottomOf="@+id/monumentImage"
+        android:focusable="false"/>
+
+    <ImageView
+        android:id="@+id/naturalSiteImage"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/waterfall"
+        app:layout_constraintStart_toEndOf="@+id/cityImage"
+        app:layout_constraintTop_toBottomOf="@+id/streetImage"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monument"
+        app:layout_constraintBottom_toBottomOf="@+id/monumentImage"
+        app:layout_constraintEnd_toStartOf="@+id/streetImage"
+        app:layout_constraintStart_toStartOf="@+id/monumentImage"
+        style="@style/imageText"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/street_view"
+        app:layout_constraintBottom_toBottomOf="@+id/streetImage"
+        app:layout_constraintEnd_toEndOf="@+id/streetImage"
+        app:layout_constraintStart_toStartOf="@+id/streetImage"
+        style="@style/imageText"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        app:layout_constraintBottom_toBottomOf="@+id/cityImage"
+        app:layout_constraintEnd_toStartOf="@+id/naturalSiteImage"
+        app:layout_constraintStart_toStartOf="@+id/cityImage"
+        style="@style/imageText"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/natural_site"
+        app:layout_constraintBottom_toBottomOf="@+id/naturalSiteImage"
+        app:layout_constraintEnd_toEndOf="@+id/naturalSiteImage"
+        app:layout_constraintStart_toStartOf="@+id/naturalSiteImage"
+        style="@style/imageText" />
+
+
+</android.support.constraint.ConstraintLayout>
